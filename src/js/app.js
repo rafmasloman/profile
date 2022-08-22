@@ -1,12 +1,21 @@
 const main = () => {
   const aboutLink = document.querySelector('.about-link');
+  const btn = document.querySelector('.btn');
 
-  aboutLink.addEventListener('click', (e) => {
-    e.preventDefault();
+  const scroll = (top) => {
     window.scrollTo({
-      top: 400,
+      top,
       behavior: 'smooth',
     });
+  };
+  aboutLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    scroll(400);
+  });
+
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    scroll(400);
   });
 };
 
