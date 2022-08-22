@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins';
+}
+
+.navbar {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.nav-link {
+  color: #00193a;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  color: #00193a;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+a > span {
+  color: #0048ab;
+}
+
+.hero {
+  margin-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.illustration {
+  position: absolute;
+}
+
+.google-icon {
+  left: 5.75rem;
+  top: 1.75rem;
+}
+
+.dribbble-icon {
+  right: 3rem;
+  top: 1rem;
+}
+
+.web-icon {
+  bottom: 2rem;
+  left: 8rem;
+}
+
+.chat-icon {
+  bottom: 4rem;
+  right: 6rem;
+}
+
+.hero-image {
+  width: 350px;
+  height: 350px;
+}
+
+.name {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #00193a;
+}
+
+.last-name {
+  color: #0048ab;
+}
+
+.summary {
+  color: #b7b7b7;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.control {
+  margin-top: 70px;
+}
+.social-media img {
+  margin-right: 20px;
+}
+.btn {
+  background-color: #0048ab;
+  padding: 12px 40px 12px 40px;
+  border-radius: 30px;
+  margin-right: 70px;
+}
+
+.profile {
+  margin-top: 120px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  display: flex;
+}
+
+.about {
+  width: 40%;
+}
+
+.description {
+  width: 60%;
+  float: left;
+}
+
+.about-me {
+  color: #0048ab;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.description h3 {
+  margin-top: 20px;
+}
+
+.description-text {
+  margin-top: 10px;
+  width: 70%;
+}
+
+.list-group {
+  width: fit-content;
+}
